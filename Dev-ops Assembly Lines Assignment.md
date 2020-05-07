@@ -1,10 +1,13 @@
-# Project Title
+# Dev-ops Assembly Lines Assignment
 
-One Paragraph of project description goes here
+Automate the deployment of code upgradation from developer to production environment after testing.
 
-## Getting Started
+## Objectives:-
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+1)	When developer commit a code while upgrading in the branch of git tool. It will send to QA Team. A testing environment is created and the upgraded code is copied there to test.
+2)	If QA team found the code stable. They trigger that the code is working fine.
+3)	If code is working fine then, merge the branch to master and copy it to production Environment.
+
 
 ### Prerequisites
 
