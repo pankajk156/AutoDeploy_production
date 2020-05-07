@@ -8,7 +8,7 @@ Automate the deployment of code upgradation from developer to production environ
 2)	If QA team found the code stable. They trigger that the code is working fine.
 3)	If code is working fine then, merge the branch to master and copy it to production Environment.
 
-![](/images/1.jpg)
+![](images/1.jpg)
 
 ### Prerequisites
 
