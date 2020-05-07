@@ -12,6 +12,6 @@ Automate the deployment of code upgradation from developer to production environ
 
 ### Solution 1 –
 We create a job (branch) in Jenkins which have three functions: 
--When developer commit a code it will push to the github with post-commit shell script. And Jenkins Monitoring the changes in the github repository using Poll SCM trigger.
--If found any update it will create testing environment within a second for the testing team.
--Copy the code from github to the testing environment.
+1) When developer commit a code it will push to the github with post-commit shell script. And Jenkins Monitoring the changes in the github repository using Poll SCM trigger.
+2) If found any update it will create testing environment within a second for the testing team.
+3) Copy the code from github to the testing environment.
